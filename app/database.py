@@ -1,3 +1,4 @@
+from pydantic import BaseModel
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import sessionmaker
 
